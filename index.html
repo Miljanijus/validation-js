@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation JS</title>
+</head>
+<body>
+    <section class="section">
+        <div class="content">
+            <div class="form-content">
+                <form>
+                    <label for="username">Username:</label>
+                    <h1 class="check-user">&#10003;</h1>
+                    <h1 class="incorrect-user">&#215;</h1>
+                    <input type="text" class="username">
+                    <label for="password">Password:</label>
+                    <h1 class="check-pass">&#10003;</h1>
+                    <h1 class="incorrect-pass">&#215;</h1>
+                    <input type="password" class="password">
+                    <input type="button" value="Login" class="btnLogin" onclick="loging()">
+                    <label class="txtUser"></label>
+                    <br>
+                    <label class="txtPass"></label>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
