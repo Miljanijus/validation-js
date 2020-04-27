@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+.form-content{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    border-radius: 20px;
+    background-color: bisque;
+}
+form{
+    width: 100%;
+    height: 80%;
+    margin-top: 8%;
+}
+.form-content label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-content input{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+.form-content .username{
+    width: 99%;
+    height: 20px;
+    margin-top: 0;
+}
+.form-content .password{
+    width: 99%;
+    height: 20px;
+    margin-top: 0;
+}
+.txtLabel{
+    font-size: 16px;
+    font-weight: 400;
+}
+.check-user{
+    font-size: 24px;
+    color: green;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    display: none;
+}
+.incorrect-user{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    right: 2%;
+    top: 13%;
+    display: none;
+}
+.check-pass{
+    font-size: 24px;
+    color: green;
+    position: absolute;
+    right: 2%;
+    top: 36%;
+    display: none;
+}
+.incorrect-pass{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    right: 2%;
+    top: 35%;
+    display: none;
+}
